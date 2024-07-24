@@ -15,7 +15,7 @@ const App: React.FC = () => {
             <div>
               <img src={logoImage} alt="Mondelez International Logo" />
             </div>
-            <h1 className={styles.csc}>Canada Sales Central</h1>
+            <h1 className={styles.csc}>Canada Sales Central90</h1>
           </div>
         </header>
         <nav className={styles.navbar}>
