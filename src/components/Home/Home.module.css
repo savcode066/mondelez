@@ -1,0 +1,28 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    width: 275px;
+    height: 200px;
+    margin: 10px;
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+  }
+  
+  .gpsMeeting {
+    background-color: #2D6EAA;
+  }
+  
+  .innovationTrackers {
+    background-color: #A52323;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  

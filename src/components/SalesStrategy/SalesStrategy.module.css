@@ -1,0 +1,200 @@
+.salesStrategy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+.biscuitSection {
+  margin-bottom: 40px;
+}
+.confySection{
+  margin-bottom: 40px;
+}
+.snackBarSection{
+  margin-bottom: 40px;
+}
+.seasonalSection{
+  margin-bottom: 40px;
+}
+.scaleSection{
+  margin-bottom: 40px;
+}
+
+
+
+
+
+.biscuitBox, .confyBox {
+  width: 1200px;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+.snackBarBox {
+  width: 1200px;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+.seasonalBox{
+  width: 1200px;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+.scaleBox{
+  width: 1200px;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+}
+
+
+
+.cookiesBoxes, .confyBoxes {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.seasonalItems{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.cookieBox, .crackerBox, .confyItemBox {
+  width: 320px;
+  height: 320px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.singleScaleBox{
+  margin-left: 440px ;
+  margin-top: 20px;
+  width: 320px;
+  height: 320px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+
+}
+
+.clifBox{
+  margin-left: 440px ;
+  margin-top: 20px;
+  width: 320px;
+  height: 320px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+
+}
+
+.seasonalItemBox{
+  width: 300px;
+  height: 320px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.easterBox {
+  background-color: #2D6EAA;
+  width: 300px;
+  height: 320px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+
+}
+
+.halloweenBox {
+  background-color: #E18719;
+  width: 300px;
+  height: 320px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.festiveBox {
+  background-color: #287819;
+  width: 300px;
+  height: 320px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.otherBox {
+  background-color: #E6AF23;
+  width: 300px;
+  height: 320px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.cookieBox:hover, .crackerBox:hover, .confyItemBox:hover, .seasonalItemBox:hover, .clifBox:hover, .singleScaleBox:hover {
+  opacity: 0.8;
+}
