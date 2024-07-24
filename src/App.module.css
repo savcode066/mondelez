@@ -61,15 +61,14 @@ body {
 }
 
 .navbar a {
-  
   color: white;
-  padding: 10px;
   text-decoration: none;
-  flex: 1;
   text-align: center;
-  width: 60px;
-  height: 80px;
-  padding-top: 60px;
+  flex: 1; /* Fixed width with flex properties */
+  height: 140px;
+  display: flex; /* Use flexbox for centering content */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
 }
 
 .navbar a:nth-child(1) { background-color: #4F2170; font-size: 1.1em;} /* Purple */
@@ -99,7 +98,7 @@ body {
   color: white;
   padding: 10px;
   text-align: center;
-  width: 145.5px;
+  width: 150px;
   overflow-y: auto;
 }
 
