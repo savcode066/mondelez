@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -11,15 +12,19 @@
 .seasonalSection,
 .scaleSection {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .biscuitBox,
-.confyBox,
 .snackBarBox,
 .seasonalBox,
+.confyBox, 
 .scaleBox {
-  width: calc(1200px * 0.888);
-  height: calc(50px * 0.888);
+  width: 900px;
+  height: 50px;
   background-color: #000;
   display: flex;
   align-items: center;
@@ -29,61 +34,39 @@
 }
 
 .cookiesBoxes,
-.confyBoxes {
+.confyBoxes,
+.seasonalItems {
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: calc(100px * 0.888);
   margin-top: calc(20px * 0.888);
 }
 
+.cookiesBoxes,
+.confyBoxes {
+  gap: calc(100px * 0.888);
+}
+
 .seasonalItems {
-  display: flex;
-  justify-content: center;
   gap: calc(10px * 0.888);
-  margin-top: calc(20px * 0.888);
 }
 
 .cookieBox,
 .crackerBox,
-.confyItemBox {
-  width: calc(320px * 0.888);
-  height: calc(320px * 0.888);
-  background-color: #000;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: calc(30px * 0.888);
-  cursor: pointer;
-  font-size: calc(2em * 0.888);
-}
-
+.confyItemBox,
 .singleScaleBox,
-.clifBox {
-  margin-left: calc(440px * 0.888);
-  margin-top: calc(20px * 0.888);
-  width: calc(320px * 0.888);
-  height: calc(320px * 0.888);
-  background-color: #000;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: calc(30px * 0.888);
-  cursor: pointer;
-  font-size: calc(2em * 0.888);
-}
-
+.clifBox,
 .seasonalItemBox,
 .easterBox,
 .halloweenBox,
 .festiveBox,
 .otherBox {
-  width: calc(300px * 0.888);
-  height: calc(320px * 0.888);
+  width: 230px;
+  height: 230px;
   background-color: #000;
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: calc(30px * 0.888);
@@ -91,20 +74,34 @@
   font-size: calc(2em * 0.888);
 }
 
+
+.singleScaleBox,
+.clifBox {
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
 .easterBox {
   background-color: #2D6EAA;
+  color: white;
 }
 
 .halloweenBox {
-  background-color: #E18719;
+  background-color: #ED7D31;
+  color: white;
+
 }
 
 .festiveBox {
-  background-color: #287819;
+  background-color: #00B050;
+  color: white;
+
 }
 
 .otherBox {
   background-color: #E6AF23;
+  color: white;
+
 }
 
 .cookieBox:hover,
@@ -115,3 +112,47 @@
 .singleScaleBox:hover {
   opacity: 0.8;
 }
+
+.cookieImage{
+  height: 70px;
+  width: 70px;
+}
+.cookieImageTitle{
+  height: 30px;
+  width: 30px;
+}
+.crackerImage{
+  height: 70px;
+  width: 70px;
+}
+
+.candyImage{
+  height: 70px;
+  width: 70px;
+}
+.confyImageTitle{
+  height: 30px;
+  width: 30px;
+}
+.chocolateImage{
+  height: 70px;
+  width: 70px;
+}
+
+
+.snackBarImageTitle{
+  height: 30px;
+  width: 30px;
+}
+
+.seasonalImageTitle{
+  height: 30px;
+  width: 30px;
+}
+
+
+.scaleImageTitle{
+  height: 30px;
+  width: 30px;
+}
+

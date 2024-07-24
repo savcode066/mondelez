@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'appetiteProBold';
-  src: url('./fonts/Atop.ttf') format('truetype');
-  font-weight: bold;
+  src: url('./fonts/appetiteProBold.otf') format('opentype');
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -95,7 +95,7 @@ body {
   color: white;
   padding: 10px;
   text-align: center;
-  width: 150px; /* Adjusted for scaling */
+  width: 106px; /* Adjusted for scaling */
   overflow-y: auto;
 }
 
