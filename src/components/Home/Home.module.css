@@ -1,28 +1,22 @@
-.buttonsContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .button {
-    width: 275px;
-    height: 200px;
-    margin: 10px;
-    border: none;
-    color: white;
-    font-size: 2em;
-    cursor: pointer;
-  }
-  
-  .gpsMeeting {
-    background-color: #2D6EAA;
-  }
-  
-  .innovationTrackers {
-    background-color: #A52323;
-  }
-  
-  .button:hover {
-    opacity: 0.8;
-  }
-  
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.welcomeBox {
+  background-color: #4F2170; /* Purple */
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.welcomePhoto {
+  width: 90%; /* Adjust dimensions as needed */
+  height: 290px; /* Adjust dimensions as needed */
+}

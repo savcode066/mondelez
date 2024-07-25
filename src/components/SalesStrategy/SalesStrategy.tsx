@@ -25,6 +25,14 @@ const SalesStrategy: React.FC = () => {
 
   return (
     <div className={styles.salesStrategy}>
+      <div className={styles.topSection}>
+        <div className={styles.gpsMeeting} onClick={handleBoxClick}>
+          GPS Meeting
+        </div>
+        <div className={styles.innovationTracker} onClick={handleBoxClick}>
+          Innovation Tracker
+        </div>
+      </div>
       <div className={styles.biscuitSection}>
         <div className={`${styles.biscuitBox}`}>
           <img

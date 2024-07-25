@@ -1,3 +1,35 @@
+.topSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gpsMeeting, .innovationTracker {
+  width: 275px;
+  height: 200px;
+  margin: 10px;
+  color: white;
+  font-size: 2em;
+  cursor: pointer;
+  border-radius: 15px; /* Increased the border radius for more curved edges */
+  display: flex; /* Added Flexbox display */
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  text-align: center; 
+}
+
+.gpsMeeting {
+  background-color: #2D6EAA;
+}
+
+.innovationTracker {
+  background-color: #A52323;
+}
+
+
+
+
+
 .salesStrategy {
   display: flex;
   flex-direction: column;
