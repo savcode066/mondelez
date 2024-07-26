@@ -25,6 +25,11 @@
     color: white;
   }
   
+  .icrImage{
+    width: 40px;
+    height: 40px;
+  }
+
   .icrLinksRow {
     display: flex;
     flex-direction: row;

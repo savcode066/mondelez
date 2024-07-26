@@ -38,6 +38,11 @@
     gap: calc(100px * 0.888);
   }
   
+  .meetingPlannedImage{
+    width: 40px;
+    height: 40px;
+  }
+
   .meetingBox,
   .policiesBox {
     width: 260px;

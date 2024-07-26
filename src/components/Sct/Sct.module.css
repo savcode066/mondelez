@@ -14,6 +14,11 @@
   justify-content: center;
 }
 
+.sctImage{
+  width: 40px;
+  height: 40px;
+}
+
 .sctBox {
   width: 900px;
   height: 50px;
