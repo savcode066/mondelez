@@ -11,6 +11,8 @@ import Rgm from "./components/Rgm/Rgm";
 import Sct from "./components/Sct/Sct";
 import Rbt from "./components/Rbt/Rbt";
 import MeetingPlanned from "./components/MeetingPlanned/MeetingPlanned";
+import PsLinksSection from "./components/PsLinksSection/PsLinksSection";
+import MerchLinksSection from "./components/MerchLinksSection/MerchLinksSection";
 
 import styles from "./App.module.css";
 import logoImage from "./assets/images/logo.png";
@@ -71,6 +73,11 @@ const App: React.FC = () => {
               <Route path="/training" element={<Sct />} />
               <Route path="/rbt" element={<Rbt />} />
               <Route path="/meetings" element={<MeetingPlanned />} />
+              <Route path="/perfect-store-links" element={<PsLinksSection />} />
+              <Route
+                path="/merch-display-links"
+                element={<MerchLinksSection />}
+              />
             </Routes>
           </main>
         </div>

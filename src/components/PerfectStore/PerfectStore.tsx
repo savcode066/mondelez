@@ -7,8 +7,14 @@ import perfectStoreImage from "./PerfectStoreImages/perfectStoreTitle.png";
 const PerfectStore: React.FC = () => {
   const navigate = useNavigate();
 
-  const handleBoxClick = () => {
-    navigate("/links");
+  const handlePerfectStoreClick = () => {
+    // Define what should happen when "Perfect Store" is clicked
+    navigate("/perfect-store-links");
+  };
+
+  const handleMerchBoxClick = () => {
+    // Define what should happen when "Merch & Display" is clicked
+    navigate("/merch-display-links");
   };
 
   return (
@@ -23,10 +29,10 @@ const PerfectStore: React.FC = () => {
           <p style={{ color: "white" }}>Perfect Store & Merchandising</p>
         </div>
         <div className={styles.perfectBoxes}>
-          <div className={styles.perfectBox} onClick={handleBoxClick}>
+          <div className={styles.perfectBox} onClick={handlePerfectStoreClick}>
             <p style={{ color: "white" }}>Perfect Store</p>
           </div>
-          <div className={styles.merchBox} onClick={handleBoxClick}>
+          <div className={styles.merchBox} onClick={handleMerchBoxClick}>
             <p style={{ color: "white" }}>Merch & Display</p>
           </div>
         </div>
