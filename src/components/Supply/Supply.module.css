@@ -1,0 +1,58 @@
+.supply {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .supplySection {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .supplyBox {
+    width: 900px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.5em * 0.888);
+    color: white;
+  }
+  
+  .linksRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .linksSection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+  }
+  
+  .linksSection h2 {
+    border: 1px solid black;
+    padding: 30px;
+  }
+  
+  .linksSection a,
+  .linksSection .addDocuments {
+    text-align: left;
+  }
+  
+  .linksSection:nth-child(3) h2 {
+    margin-top: 20px;
+    padding: 48px;
+  }
+  

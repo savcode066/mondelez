@@ -1,0 +1,46 @@
+.sctContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sctContent {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sctBox {
+  width: 900px;
+  height: 50px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(1.5em * 0.888);
+  color: white;
+}
+
+.sctImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.sctLinksSection {
+  text-align: left;
+}
+
+.sctLink {
+  display: block;
+  margin: 5px 0;
+  color: blue; /* or any color you prefer */
+  text-decoration: none;
+}
+
+.sctLinksRow {
+  margin-top: 20px;
+}

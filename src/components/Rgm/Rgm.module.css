@@ -1,0 +1,58 @@
+.rgmContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .rgmContent {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rgmBox {
+    width: 900px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.5em * 0.888);
+    color: white;
+  }
+  
+  .rgmLinksRow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .rgmLinksSection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    width: 180px;
+    text-align: center;
+  }
+  
+  .rgmLinksSection h2 {
+    border: 1px solid black;
+    padding: 30px;
+  }
+  
+  .rgmLink,
+  .rgmAddDocuments {
+    text-align: left;
+  }
+  
+  .rgmLinksSection:nth-child(3) h2 {
+    margin-top: 20px;
+    padding: 48px;
+  }
+  

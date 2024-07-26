@@ -1,0 +1,60 @@
+.meetingPlannedContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .meetingPlannedSection {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .meetingPlannedBox {
+    width: 900px;
+    height: 50px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1.5em * 0.888);
+    color: white;
+  }
+  
+  .meetingPlannedImage {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .meetingPlannedBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: calc(20px * 0.888);
+    gap: calc(100px * 0.888);
+  }
+  
+  .meetingBox,
+  .policiesBox {
+    width: 260px;
+    height: 150px;
+    border: 2px solid black; /* Added border style and width */
+    border-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: calc(2em * 0.888);
+  }
+  
+  .meetingBox:hover,
+  .policiesBox:hover {
+    opacity: 0.8;
+  }
+  
